@@ -50,6 +50,37 @@ def cambiar_palabras(texto, lematizacion):
                     texto[i][j] = palabra_lematizada
     return texto
 
+# Funcion que calcula el TF de un término
+def calcular_TF(termino, documento):
+    tf = 0
+    for i in documento:
+        if i == termino:
+            tf += 1
+    return tf / len(documento)
+
+# Funcion que calcula el IDF de un término
+def calculat_IDF(termino, documentos):
+    df = 0
+    for i in documentos:
+        for j in i:
+            if j == termino:
+                df += 1
+                break
+    return math.log(len(documentos) / df)
+
+# Funcion que calcula el TF-IDF de un término
+def calcular_TF_IDF(termino, documento, documentos):
+    return calcular_TF(termino, documento) * calculat_IDF(termino, documentos)
+
+# Función que calcula el índice del término
+def calcular_indice_termino(termino, documento):
+    indice = []
+    for i in range(len(documento)):
+        if documento[i] == termino:
+            indice.append(i)
+    return indice
+
+
     
 
 
