@@ -32,7 +32,6 @@ def leer_archivo_lematizacion(nombre_archivo_lematizacion):
         texto_json = json.loads(texto)
     return texto_json
 
-
 # Función que cambia las palabras por otras dadas
 def cambiar_palabras(texto, lematizacion):
     for i in lematizacion: # Falla en este bucle
