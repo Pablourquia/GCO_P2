@@ -81,7 +81,7 @@ def calcular_IDF(termino, documentos):
             if j == termino:
                 df += 1
                 break
-    return math.log(len(documentos) / df)
+    return math.log(len(documentos) / df, 10)
 
 # Funcion que calcula el TF-IDF de un término
 
