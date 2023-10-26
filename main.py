@@ -17,7 +17,6 @@ parser.add_argument('-o', '--output', type=str, required=True,
                     help='Nombre del archivo de salida')
 
 
-
 # Analizar los argumentos
 args = parser.parse_args()
 
@@ -42,15 +41,14 @@ with open(nombre_archivo_salida, 'w') as archivo:
         tabla = crear_tabla(texto_final, texto_final[i])
         archivo.write("Índice del término\tTérmino\tTF\tIDF\tTF-IDF \n")
         for i in range(len(tabla)):
-            archivo.write(str(tabla[i][0]) + "\t" + str(tabla[i][1]) + "\t" + str(round(tabla[i][2],5)) + "\t" + str(round(tabla[i][3],5)) + "\t" + str(round(tabla[i][4],5)) + "\n")
+            archivo.write(str(tabla[i][0]) + "\t" + str(tabla[i][1]) + "\t" + str(round(
+                tabla[i][2], 5)) + "\t" + str(round(tabla[i][3], 5)) + "\t" + str(round(tabla[i][4], 5)) + "\n")
         archivo.write("\n")
         array_tablas.append(ordenar_mejores_idf(tabla))
-    
+
     # Imprimir la similitud coseno entre las tablas
     archivo.write('Similitud coseno entre los documentos \n')
     for i in range(len(array_tablas)):
         for j in range(i + 1, len(array_tablas)):
-            archivo.write('Similitud coseno entre el documento ' + str(i + 1) + ' y el documento ' + str(j + 1) + ': ' + str(round(calcular_similitud_coseno(array_tablas[i], array_tablas[j]),5)) + '\n')
-
-
-    
+            archivo.write('Similitud coseno entre el documento ' + str(i + 1) + ' y el documento ' + str(
+                j + 1) + ': ' + str(round(calcular_similitud_coseno(array_tablas[i], array_tablas[j]), 5)) + '\n')
