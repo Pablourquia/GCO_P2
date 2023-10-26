@@ -26,7 +26,19 @@ def leer_texto(nombre_archivo_documentos):
             # Divide la línea en palabras
             palabras = linea.split()
             # Agrega el vector de palabras al vector principal
+
+            # revisa si en el vector de palabras hay un espacio en blanco o un . o una , y si lo hay, lo elimina
+            for i in range(len(palabras)):
+                if palabras[i] == ' ' or palabras[i] == '.' or palabras[i] == ',':
+                    palabras.pop(i)
             vector_de_lineas.append(palabras)
+
+    # eliminar los caracteres como . o , de las palabras
+    for i in range(len(vector_de_lineas)):
+        for j in range(len(vector_de_lineas[i])):
+            vector_de_lineas[i][j] = re.sub(
+                r'[^a-zA-Z0-9]', '', vector_de_lineas[i][j])
+            vector_de_lineas[i][j] = vector_de_lineas[i][j].lower()
 
     return vector_de_lineas
 
