@@ -1,36 +1,260 @@
 Documento 1
 Índice del término	Término	TF	IDF	TF-IDF 
-[0]	hola	0.07143	0.0	0.0
-[1]	mundo	0.07143	0.0	0.0
-[2]	esto	0.07143	0.0	0.0
-[3]	es	0.07143	0.0	0.0
-[4]	una	0.07143	0.0	0.0
-[5]	prueba	0.07143	0.0	0.0
-[6]	para	0.07143	0.0	0.0
-[7]	comprobar	0.07143	0.0	0.0
-[8]	la	0.07143	0.0	0.0
-[9]	similitud	0.07143	0.0	0.0
-[10]	da	0.07143	0.0	0.0
-[11]	cercana	0.07143	0.0	0.0
-[12]	a	0.07143	0.0	0.0
-[13]	1	0.07143	0.0	0.0
+[0]	aromas	1.0	0.39794	0.39794
+[1]	include	1.0	1.0	1.0
+[2]	tropical	1.0	1.0	1.0
+[3]	fruit	1.0	0.69897	0.69897
+[4]	broom	1.0	1.0	1.0
+[5]	brimstone	1.0	1.0	1.0
+[6, 16]	dried	1.30103	0.69897	0.90938
+[7]	herb	1.0	0.69897	0.69897
+[8]	palate	1.0	0.52288	0.52288
+[9]	isnt	1.0	1.0	1.0
+[10]	overly	1.0	1.0	1.0
+[11]	expressive	1.0	1.0	1.0
+[12]	offer	1.0	0.69897	0.69897
+[13]	unripened	1.0	1.0	1.0
+[14]	apple	1.0	0.69897	0.69897
+[15]	citrus	1.0	1.0	1.0
+[17]	sage	1.0	1.0	1.0
+[18]	brisk	1.0	0.69897	0.69897
+[19]	acidity	1.0	0.1549	0.1549
 
 Documento 2
 Índice del término	Término	TF	IDF	TF-IDF 
-[0]	hola	0.07143	0.0	0.0
-[1]	mundo	0.07143	0.0	0.0
-[2]	esto	0.07143	0.0	0.0
-[3]	es	0.07143	0.0	0.0
-[4]	una	0.07143	0.0	0.0
-[5]	prueba	0.07143	0.0	0.0
-[6]	para	0.07143	0.0	0.0
-[7]	comprobar	0.07143	0.0	0.0
-[8]	la	0.07143	0.0	0.0
-[9]	similitud	0.07143	0.0	0.0
-[10]	da	0.07143	0.0	0.0
-[11]	cercana	0.07143	0.0	0.0
-[12]	a	0.07143	0.0	0.0
-[13]	1	0.07143	0.0	0.0
+[0]	ripe	1.0	1.0	1.0
+[1]	fruity	1.0	0.69897	0.69897
+[2]	a	1.0	0.1549	0.1549
+[3]	wine	1.0	0.30103	0.30103
+[4]	smooth	1.0	1.0	1.0
+[5]	structured	1.0	1.0	1.0
+[6]	firm	1.0	0.69897	0.69897
+[7]	tannins	1.0	0.69897	0.69897
+[8]	fill	1.0	1.0	1.0
+[9]	juicy	1.0	1.0	1.0
+[10]	red	1.0	0.69897	0.69897
+[11]	berry	1.0	0.69897	0.69897
+[12]	fruits	1.0	0.69897	0.69897
+[13]	freshened	1.0	1.0	1.0
+[14]	acidity	1.0	0.1549	0.1549
+[15]	drinkable	1.0	1.0	1.0
+[16]	2016	1.0	1.0	1.0
+
+Documento 3
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	tart	1.0	1.0	1.0
+[1]	snappy	1.0	1.0	1.0
+[2, 13]	flavors	1.30103	0.52288	0.68028
+[3]	lime	1.0	1.0	1.0
+[4]	flesh	1.0	1.0	1.0
+[5]	rind	1.0	0.69897	0.69897
+[6]	dominate	1.0	1.0	1.0
+[7]	green	1.0	0.69897	0.69897
+[8]	pineapple	1.0	0.69897	0.69897
+[9]	pokes	1.0	1.0	1.0
+[10]	crisp	1.0	0.69897	0.69897
+[11]	acidity	1.0	0.1549	0.1549
+[12]	underscoring	1.0	1.0	1.0
+[14]	wine	1.0	0.30103	0.30103
+[15]	stainlesssteel	1.0	1.0	1.0
+[16]	fermented	1.0	1.0	1.0
+
+Documento 4
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	pineapple	1.0	0.69897	0.69897
+[1]	rind	1.0	0.69897	0.69897
+[2]	lemon	1.0	1.0	1.0
+[3]	pith	1.0	1.0	1.0
+[4]	orange	1.0	1.0	1.0
+[5]	blossom	1.0	1.0	1.0
+[6]	start	1.0	1.0	1.0
+[7]	aromas	1.0	0.39794	0.39794
+[8]	palate	1.0	0.52288	0.52288
+[9, 17]	a	1.30103	0.1549	0.20153
+[10]	bite	1.0	1.0	1.0
+[11]	opulent	1.0	1.0	1.0
+[12]	note	1.0	0.69897	0.69897
+[13]	honeydrizzled	1.0	1.0	1.0
+[14]	guava	1.0	1.0	1.0
+[15]	mango	1.0	1.0	1.0
+[16]	give	1.0	1.0	1.0
+[18]	slightly	1.0	1.0	1.0
+[19]	astringent	1.0	1.0	1.0
+[20]	semidry	1.0	1.0	1.0
+[21]	finish	1.0	0.69897	0.69897
+
+Documento 5
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	regular	1.0	1.0	1.0
+[1]	bottling	1.0	1.0	1.0
+[2]	2012	1.0	1.0	1.0
+[3]	rough	1.0	1.0	1.0
+[4]	tannic	1.0	1.0	1.0
+[5]	rustic	1.0	1.0	1.0
+[6]	earthy	1.0	1.0	1.0
+[7]	herbal	1.0	0.69897	0.69897
+[8]	characteristics	1.0	1.0	1.0
+[9, 14, 17]	a	1.47712	0.1549	0.22881
+[10]	pleasantly	1.0	1.0	1.0
+[11]	unfussy	1.0	1.0	1.0
+[12]	country	1.0	1.0	1.0
+[13]	wine	1.0	0.30103	0.30103
+[15]	good	1.0	1.0	1.0
+[16]	companion	1.0	1.0	1.0
+[18]	hearty	1.0	1.0	1.0
+[19]	winter	1.0	1.0	1.0
+[20]	stew	1.0	1.0	1.0
+
+Documento 6
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	blackberry	1.0	1.0	1.0
+[1]	raspberry	1.0	1.0	1.0
+[2]	aromas	1.0	0.39794	0.39794
+[3]	show	1.0	1.0	1.0
+[4]	a	1.0	0.1549	0.1549
+[5]	typical	1.0	1.0	1.0
+[6]	navarran	1.0	1.0	1.0
+[7]	whiff	1.0	1.0	1.0
+[8]	green	1.0	0.69897	0.69897
+[9]	herbs	1.0	1.0	1.0
+[10]	case	1.0	1.0	1.0
+[11]	horseradish	1.0	1.0	1.0
+[12]	mouth	1.0	1.0	1.0
+[13]	full	1.0	1.0	1.0
+[14]	bodied	1.0	1.0	1.0
+[15]	tomatoey	1.0	1.0	1.0
+[16]	acidity	1.0	0.1549	0.1549
+[17]	spicy	1.0	1.0	1.0
+[18]	herbal	1.0	0.69897	0.69897
+[19]	flavors	1.0	0.52288	0.52288
+[20]	complement	1.0	1.0	1.0
+[21]	dark	1.0	1.0	1.0
+[22]	plum	1.0	1.0	1.0
+[23]	fruit	1.0	0.69897	0.69897
+[24]	finish	1.0	0.69897	0.69897
+[25]	fresh	1.0	0.39794	0.39794
+[26]	grabby	1.0	1.0	1.0
+
+Documento 7
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	heres	1.0	1.0	1.0
+[1]	a	1.0	0.1549	0.1549
+[2]	bright	1.0	1.0	1.0
+[3]	informal	1.0	1.0	1.0
+[4]	red	1.0	0.69897	0.69897
+[5]	open	1.0	1.0	1.0
+[6]	aromas	1.0	0.39794	0.39794
+[7]	candied	1.0	1.0	1.0
+[8]	berry	1.0	0.69897	0.69897
+[9]	white	1.0	1.0	1.0
+[10]	pepper	1.0	1.0	1.0
+[11]	savory	1.0	0.69897	0.69897
+[12]	herb	1.0	0.69897	0.69897
+[13]	carry	1.0	1.0	1.0
+[14]	palate	1.0	0.52288	0.52288
+[15]	balance	1.0	0.52288	0.52288
+[16]	fresh	1.0	0.39794	0.39794
+[17]	acidity	1.0	0.1549	0.1549
+[18]	soft	1.0	1.0	1.0
+[19]	tannins	1.0	0.69897	0.69897
+
+Documento 8
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	dry	1.0	0.69897	0.69897
+[1]	restrain	1.0	1.0	1.0
+[2]	wine	1.0	0.30103	0.30103
+[3]	offer	1.0	0.69897	0.69897
+[4]	spice	1.0	0.69897	0.69897
+[5]	profusion	1.0	1.0	1.0
+[6]	balance	1.0	0.52288	0.52288
+[7]	acidity	1.0	0.1549	0.1549
+[8]	a	1.0	0.1549	0.1549
+[9]	firm	1.0	0.69897	0.69897
+[10]	texture	1.0	0.69897	0.69897
+[11]	food	1.0	1.0	1.0
+
+Documento 9
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	savory	1.0	0.69897	0.69897
+[1]	dried	1.0	0.69897	0.69897
+[2]	thyme	1.0	1.0	1.0
+[3]	note	1.0	0.69897	0.69897
+[4]	accent	1.0	1.0	1.0
+[5]	sunnier	1.0	1.0	1.0
+[6]	flavors	1.0	0.52288	0.52288
+[7]	preserve	1.0	1.0	1.0
+[8]	peach	1.0	1.0	1.0
+[9]	brisk	1.0	0.69897	0.69897
+[10]	offdry	1.0	1.0	1.0
+[11]	wine	1.0	0.30103	0.30103
+[12]	fruity	1.0	0.69897	0.69897
+[13]	fresh	1.0	0.39794	0.39794
+[14]	elegant	1.0	1.0	1.0
+[15]	sprightly	1.0	1.0	1.0
+[16]	footprint	1.0	1.0	1.0
+
+Documento 10
+Índice del término	Término	TF	IDF	TF-IDF 
+[0]	great	1.0	1.0	1.0
+[1]	depth	1.0	1.0	1.0
+[2]	flavor	1.0	1.0	1.0
+[3]	fresh	1.0	0.39794	0.39794
+[4]	apple	1.0	0.69897	0.69897
+[5]	pear	1.0	1.0	1.0
+[6]	fruits	1.0	0.69897	0.69897
+[7]	touch	1.0	1.0	1.0
+[8]	spice	1.0	0.69897	0.69897
+[9]	dry	1.0	0.69897	0.69897
+[10]	balance	1.0	0.52288	0.52288
+[11]	acidity	1.0	0.1549	0.1549
+[12]	a	1.0	0.1549	0.1549
+[13]	crisp	1.0	0.69897	0.69897
+[14]	texture	1.0	0.69897	0.69897
+[15]	drink	1.0	1.0	1.0
 
 Similitud coseno entre los documentos 
-Similitud coseno entre el documento 1 y el documento 2: 0.0
+Similitud coseno entre el documento 1 y el documento 2: 5.0
+Similitud coseno entre el documento 1 y el documento 3: 5.0
+Similitud coseno entre el documento 1 y el documento 4: 5.0
+Similitud coseno entre el documento 1 y el documento 5: 5.0
+Similitud coseno entre el documento 1 y el documento 6: 5.0
+Similitud coseno entre el documento 1 y el documento 7: 5.0
+Similitud coseno entre el documento 1 y el documento 8: 4.39794
+Similitud coseno entre el documento 1 y el documento 9: 5.0
+Similitud coseno entre el documento 1 y el documento 10: 5.0
+Similitud coseno entre el documento 2 y el documento 3: 5.0
+Similitud coseno entre el documento 2 y el documento 4: 5.0
+Similitud coseno entre el documento 2 y el documento 5: 5.0
+Similitud coseno entre el documento 2 y el documento 6: 5.0
+Similitud coseno entre el documento 2 y el documento 7: 5.0
+Similitud coseno entre el documento 2 y el documento 8: 4.39794
+Similitud coseno entre el documento 2 y el documento 9: 5.0
+Similitud coseno entre el documento 2 y el documento 10: 5.0
+Similitud coseno entre el documento 3 y el documento 4: 5.0
+Similitud coseno entre el documento 3 y el documento 5: 5.0
+Similitud coseno entre el documento 3 y el documento 6: 5.0
+Similitud coseno entre el documento 3 y el documento 7: 5.0
+Similitud coseno entre el documento 3 y el documento 8: 4.39794
+Similitud coseno entre el documento 3 y el documento 9: 5.0
+Similitud coseno entre el documento 3 y el documento 10: 5.0
+Similitud coseno entre el documento 4 y el documento 5: 5.0
+Similitud coseno entre el documento 4 y el documento 6: 5.0
+Similitud coseno entre el documento 4 y el documento 7: 5.0
+Similitud coseno entre el documento 4 y el documento 8: 4.39794
+Similitud coseno entre el documento 4 y el documento 9: 5.0
+Similitud coseno entre el documento 4 y el documento 10: 5.0
+Similitud coseno entre el documento 5 y el documento 6: 5.0
+Similitud coseno entre el documento 5 y el documento 7: 5.0
+Similitud coseno entre el documento 5 y el documento 8: 4.39794
+Similitud coseno entre el documento 5 y el documento 9: 5.0
+Similitud coseno entre el documento 5 y el documento 10: 5.0
+Similitud coseno entre el documento 6 y el documento 7: 5.0
+Similitud coseno entre el documento 6 y el documento 8: 4.39794
+Similitud coseno entre el documento 6 y el documento 9: 5.0
+Similitud coseno entre el documento 6 y el documento 10: 5.0
+Similitud coseno entre el documento 7 y el documento 8: 4.39794
+Similitud coseno entre el documento 7 y el documento 9: 5.0
+Similitud coseno entre el documento 7 y el documento 10: 5.0
+Similitud coseno entre el documento 8 y el documento 9: 4.39794
+Similitud coseno entre el documento 8 y el documento 10: 4.39794
+Similitud coseno entre el documento 9 y el documento 10: 5.0

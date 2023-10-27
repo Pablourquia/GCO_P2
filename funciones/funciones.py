@@ -77,7 +77,12 @@ def cambiar_palabras(texto, lematizacion):
 
 
 def calcular_TF(termino, documento):
-    return 1 + math.log(len(termino), 10)
+    # numero de veces que aparece la palabra en el documento
+    tf = 0
+    for i in documento:
+        if i == termino:
+            tf += 1
+    return 1 + math.log(tf, 10)
 
 # Funcion que calcula el IDF de un término
 

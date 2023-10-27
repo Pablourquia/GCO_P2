@@ -1,2 +1,2 @@
 Hola mundo, esto es una prueba para comprobar que la similitud da cercana a 1
-Hola mundo, esto es una prueba para comprobar que la similitud da cercana a 1 .
+Hola mundo, esto es una prueba para comprobar que la similitud da cercana a 1 o no
