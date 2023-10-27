@@ -77,11 +77,7 @@ def cambiar_palabras(texto, lematizacion):
 
 
 def calcular_TF(termino, documento):
-    tf = 0
-    for i in documento:
-        if i == termino:
-            tf += 1
-    return tf / len(documento)
+    return 1 + math.log(len(termino), 10)
 
 # Funcion que calcula el IDF de un término
 
@@ -139,7 +135,7 @@ def crear_tabla(documentos, documento):
 
 
 def ordenar_mejores_idf(tabla):
-    tabla.sort(key=lambda x: x[3], reverse=True)
+    tabla.sort(key=lambda x: x[4], reverse=True)
     return tabla[:5]
 
 # Calcula la similitud coseno entre varias tablas
