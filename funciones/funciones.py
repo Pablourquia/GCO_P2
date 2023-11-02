@@ -158,5 +158,10 @@ def calcular_similitud_coseno(tabla1, tabla2, documento1, documento2, documentos
     if len(tabla1) != len(tabla2):
         return -1
     for i in range(len(tabla1)):
-        similitud += (tabla1[i][4]/calcular_vector_length(documento1,documentos)) * (tabla2[i][4]/calcular_vector_length(documento2,documentos))
+        if tabla1[i][4] == 0 or tabla2[i][4] == 0:
+            continue
+        else: 
+            val1 = tabla1[i][4] / calcular_vector_length(documento1, documentos)
+            val2 = tabla2[i][4] / calcular_vector_length(documento2, documentos)
+        similitud += val1*val2
     return similitud
