@@ -73,9 +73,13 @@ def cambiar_palabras(texto, lematizacion):
                     texto[i][j] = palabra_lematizada
     return texto
 
-# Función que normalizdo los valores entre 0 y 1
-def normalizar(valor, limite_inferior, limite_superior):
-    return (valor - limite_inferior) / (limite_superior - limite_inferior)
+def calcular_vector_length(documento):
+    array = []
+    for i in documento:
+        array.append(calcular_TF(i, documento))
+    return math.sqrt(sum(i**2 for i in array))
+
+
 
 # Funcion que calcula el TF de un término
 
@@ -87,6 +91,7 @@ def calcular_TF(termino, documento):
         if i == termino:
             tf += 1
     return 1 + math.log(tf, 10)
+
 
 # Funcion que calcula el IDF de un término
 
@@ -150,10 +155,10 @@ def ordenar_mejores_idf(tabla):
 # Calcula la similitud coseno entre varias tablas
 
 
-def calcular_similitud_coseno(tabla1, tabla2):
+def calcular_similitud_coseno(tabla1, tabla2, documento1, documento2):
     similitud = 0
     if len(tabla1) != len(tabla2):
         return -1
     for i in range(len(tabla1)):
-        similitud += tabla1[i][4] * tabla2[i][4]
+        similitud += (tabla1[i][4]/calcular_vector_length(documento1)) * (tabla2[i][4]/calcular_vector_length(documento2))
     return similitud
