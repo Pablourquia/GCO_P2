@@ -73,6 +73,10 @@ def cambiar_palabras(texto, lematizacion):
                     texto[i][j] = palabra_lematizada
     return texto
 
+# Función que normalizdo los valores entre 0 y 1
+def normalizar(valor, limite_inferior, limite_superior):
+    return (valor - limite_inferior) / (limite_superior - limite_inferior)
+
 # Funcion que calcula el TF de un término
 
 
