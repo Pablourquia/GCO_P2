@@ -51,4 +51,4 @@ with open(nombre_archivo_salida, 'w') as archivo:
     for i in range(len(array_tablas)):
         for j in range(i + 1, len(array_tablas)):
             archivo.write('Similitud coseno entre el documento ' + str(i + 1) + ' y el documento ' + str(
-                j + 1) + ': ' + str(round(calcular_similitud_coseno(array_tablas[i], array_tablas[j], texto_final[i], texto_final[j]), 5)) + '\n')
+                j + 1) + ': ' + str(round(calcular_similitud_coseno(array_tablas[i], array_tablas[j], texto_final[i], texto_final[j], texto_final), 5)) + '\n')

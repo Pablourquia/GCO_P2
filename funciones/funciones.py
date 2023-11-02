@@ -73,11 +73,11 @@ def cambiar_palabras(texto, lematizacion):
                     texto[i][j] = palabra_lematizada
     return texto
 
-def calcular_vector_length(documento):
-    array = []
+def calcular_vector_length(documento, documentos):
+    sum = 0
     for i in documento:
-        array.append(calcular_TF(i, documento))
-    return math.sqrt(sum(i**2 for i in array))
+        sum += calcular_TF_IDF(i, documento, documentos) ** 2
+    return math.sqrt(sum)
 
 
 
@@ -153,12 +153,10 @@ def ordenar_mejores_idf(tabla):
     return tabla[:5]
 
 # Calcula la similitud coseno entre varias tablas
-
-
-def calcular_similitud_coseno(tabla1, tabla2, documento1, documento2):
+def calcular_similitud_coseno(tabla1, tabla2, documento1, documento2, documentos):
     similitud = 0
     if len(tabla1) != len(tabla2):
         return -1
     for i in range(len(tabla1)):
-        similitud += (tabla1[i][4]/calcular_vector_length(documento1)) * (tabla2[i][4]/calcular_vector_length(documento2))
+        similitud += (tabla1[i][4]/calcular_vector_length(documento1,documentos)) * (tabla2[i][4]/calcular_vector_length(documento2,documentos))
     return similitud
